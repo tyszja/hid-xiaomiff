@@ -1,0 +1,3 @@
+ACTION=="bind", KERNELS=="0005:2717:3144.*", SUBSYSTEMS=="hid", DRIVERS=="hid-generic", \
+RUN+="/bin/bash -c 'echo $kernel > /sys/bus/hid/drivers/hid-generic/unbind'", \
+RUN+="/bin/bash -c 'echo $kernel > /sys/bus/hid/drivers/hid-xiaomiff/bind'"

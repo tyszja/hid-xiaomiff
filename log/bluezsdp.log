@@ -1,0 +1,55 @@
+> ACL Data RX: Handle 70 flags 0x02 dlen 21                                      #322 [hci0] 370.961724
+      Channel: 64 len 17 [PSM 1 mode 0] {chan 0}
+      SDP: Service Search Attribute Response (0x07) tid 29 len 12
+        Attribute bytes: 9
+        Continuation state: 0
+        Combined attribute bytes: 199
+          Attribute list: [len 193] {position 0}
+            Attribute: Service Record Handle (0x0000) [len 2]
+              0x00010001
+            Attribute: Service Class ID List (0x0001) [len 2]
+              UUID (3) with 2 bytes [0 extra bits] len 3
+                PnP Information (0x1200)
+            Attribute: Protocol Descriptor List (0x0004) [len 2]
+              Sequence (6) with 6 bytes [8 extra bits] len 8
+                UUID (3) with 2 bytes [0 extra bits] len 3
+                  L2CAP (0x0100)
+                Unsigned Integer (1) with 2 bytes [0 extra bits] len 3
+                  0x0001
+              Sequence (6) with 3 bytes [8 extra bits] len 5
+                UUID (3) with 2 bytes [0 extra bits] len 3
+                  SDP (0x0001)
+            Attribute: Browse Group List (0x0005) [len 2]
+              UUID (3) with 2 bytes [0 extra bits] len 3
+                Public Browse Root (0x1002)
+            Attribute: Language Base Attribute ID List (0x0006) [len 2]
+              Unsigned Integer (1) with 2 bytes [0 extra bits] len 3
+                0x656e
+              Unsigned Integer (1) with 2 bytes [0 extra bits] len 3
+                0x006a
+              Unsigned Integer (1) with 2 bytes [0 extra bits] len 3
+                0x0100
+            Attribute: Bluetooth Profile Descriptor List (0x0009) [len 2]
+              Sequence (6) with 6 bytes [8 extra bits] len 8
+                UUID (3) with 2 bytes [0 extra bits] len 3
+                  PnP Information (0x1200)
+                Unsigned Integer (1) with 2 bytes [0 extra bits] len 3
+                  0x0100
+            Attribute: Unknown (0x0100) [len 2]
+              XiaoMi Bluetooth Wireless GameController PnP Server [len 51]
+            Attribute: Unknown (0x0101) [len 2]
+              (2) Joystick GameController  [len 28]
+            Attribute: Unknown (0x0200) [len 2]
+              0x0103
+            Attribute: Unknown (0x0201) [len 2]
+              0x2717
+            Attribute: Unknown (0x0202) [len 2]
+              0x3144
+            Attribute: Unknown (0x0203) [len 2]
+              0x0129
+            Attribute: Unknown (0x0204) [len 2]
+              true
+            Attribute: Unknown (0x0205) [len 2]
+              0x0002
+
+

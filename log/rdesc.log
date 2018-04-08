@@ -1,0 +1,208 @@
+05 01 09 05 a1 01 85 04 15 00 25 01 35 00 45 01 75 01 95 0f 05 09 19 01 29 0f 81 02 95 01 81 01 05 01 09 07 a1 00 05 07 75 01 15 00 25 01 35 00 45 01 95 05 09 52 09 51 09 50 09 4f 09 f1 81 02 c0 95 03 81 01 05 01 25 07 46 3b 01 75 04 95 01 65 14 09 39 81 42 65 00 95 01 81 01 26 ff 00 46 ff 00 09 30 09 31 09 32 09 35 09 33 09 34 75 08 95 06 81 02 05 02 15 00 26 ff 00 09 c5 09 bb 95 02 75 08 81 02 05 20 09 73 a1 80 05 20 0a 53 04 16 01 80 26 ff 7f 75 10 95 01 55 0e 81 03 0a 54 04 16 01 80 26 ff 7f 75 10 95 01 55 0e 81 03 0a 55 04 16 01 80 26 ff 7f 75 10 95 01 55 0e 81 03 c0 05 0d 09 3b 15 00 26 ff 00 75 08 95 01 81 02 05 0c 0a 23 02 75 01 15 00 25 01 35 00 45 01 95 01 81 02 95 07 81 01 85 20 06 00 ff 0a 21 26 75 08 95 06 b1 02 c0 00 
+
+  INPUT(4)[INPUT]
+    Field(0)
+      Application(GenericDesktop.GamePad)
+      Usage(15)
+        Button.0001
+        Button.0002
+        Button.0003
+        Button.0004
+        Button.0005
+        Button.0006
+        Button.0007
+        Button.0008
+        Button.0009
+        Button.000a
+        Button.000b
+        Button.000c
+        Button.000d
+        Button.000e
+        Button.000f
+      Logical Minimum(0)
+      Logical Maximum(1)
+      Physical Minimum(0)
+      Physical Maximum(1)
+      Report Size(1)
+      Report Count(15)
+      Report Offset(0)
+      Flags( Variable Absolute )
+    Field(1)
+      Physical(GenericDesktop.Keypad)
+      Application(GenericDesktop.GamePad)
+      Usage(5)
+        Keyboard.0052
+        Keyboard.0051
+        Keyboard.0050
+        Keyboard.004f
+        Keyboard.00f1
+      Logical Minimum(0)
+      Logical Maximum(1)
+      Physical Minimum(0)
+      Physical Maximum(1)
+      Report Size(1)
+      Report Count(5)
+      Report Offset(16)
+      Flags( Variable Absolute )
+    Field(2)
+      Application(GenericDesktop.GamePad)
+      Usage(1)
+        GenericDesktop.HatSwitch
+      Logical Minimum(0)
+      Logical Maximum(7)
+      Physical Minimum(0)
+      Physical Maximum(315)
+      Unit(English Rotation : Degrees)
+      Report Size(4)
+      Report Count(1)
+      Report Offset(24)
+      Flags( Variable Absolute NullState )
+    Field(3)
+      Application(GenericDesktop.GamePad)
+      Usage(6)
+        GenericDesktop.X
+        GenericDesktop.Y
+        GenericDesktop.Z
+        GenericDesktop.Rz
+        GenericDesktop.Rx
+        GenericDesktop.Ry
+      Logical Minimum(0)
+      Logical Maximum(255)
+      Physical Minimum(0)
+      Physical Maximum(255)
+      Report Size(8)
+      Report Count(6)
+      Report Offset(32)
+      Flags( Variable Absolute )
+    Field(4)
+      Application(GenericDesktop.GamePad)
+      Usage(2)
+        Simulation.00c5                     @JT: Brake
+        Simulation.Throttle                 @JT: (0xbb?)
+      Logical Minimum(0)
+      Logical Maximum(255)
+      Physical Minimum(0)
+      Physical Maximum(255)
+      Report Size(8)
+      Report Count(2)
+      Report Offset(80)
+      Flags( Variable Absolute )
+    Field(5)
+      Application(GenericDesktop.GamePad)
+      Usage(1)
+        Sensor.0453                         @JT: Data Field: Acceleration Axis X (default Unit: G’s)
+      Logical Minimum(-32767)
+      Logical Maximum(32767)
+      Physical Minimum(0)
+      Physical Maximum(255)
+      Unit Exponent(-2)
+      Report Size(16)
+      Report Count(1)
+      Report Offset(96)
+      Flags( Constant Variable Absolute )
+    Field(6)
+      Application(GenericDesktop.GamePad)
+      Usage(1)
+        Sensor.0454                         @JT: Data Field: Acceleration Axis Y (default Unit: G’s)
+      Logical Minimum(-32767)
+      Logical Maximum(32767)
+      Physical Minimum(0)
+      Physical Maximum(255)
+      Unit Exponent(-2)
+      Report Size(16)
+      Report Count(1)
+      Report Offset(112)
+      Flags( Constant Variable Absolute )
+    Field(7)
+      Application(GenericDesktop.GamePad)
+      Usage(1)
+        Sensor.0455                         @JT: Data Field: Acceleration Axis Z (default Unit: G’s)
+      Logical Minimum(-32767)
+      Logical Maximum(32767)
+      Physical Minimum(0)
+      Physical Maximum(255)
+      Unit Exponent(-2)
+      Report Size(16)
+      Report Count(1)
+      Report Offset(128)
+      Flags( Constant Variable Absolute )
+    Field(8)
+      Application(GenericDesktop.GamePad)
+      Usage(1)
+        Digitizers.003b                     @JT: Battery Strength
+      Logical Minimum(0)
+      Logical Maximum(255)
+      Physical Minimum(0)
+      Physical Maximum(255)
+      Unit Exponent(-2)
+      Report Size(8)
+      Report Count(1)
+      Report Offset(144)
+      Flags( Variable Absolute )
+    Field(9)
+      Application(GenericDesktop.GamePad)
+      Usage(1)
+        Consumer.0223                       @JT: Generic GUI Application Controls: 'AC Home'
+      Logical Minimum(0)
+      Logical Maximum(1)
+      Physical Minimum(0)
+      Physical Maximum(1)
+      Unit Exponent(-2)
+      Report Size(1)
+      Report Count(1)
+      Report Offset(152)
+      Flags( Variable Absolute )
+  FEATURE(32)[FEATURE]
+    Field(0)
+      Application(GenericDesktop.GamePad)
+      Usage(6)
+        ff00.2621                           @JT: ff00 - ffff are Vendor defined Usages
+        ff00.2621
+        ff00.2621
+        ff00.2621
+        ff00.2621
+        ff00.2621
+      Logical Minimum(0)
+      Logical Maximum(1)
+      Physical Minimum(0)
+      Physical Maximum(1)
+      Unit Exponent(-2)
+      Report Size(8)
+      Report Count(6)
+      Report Offset(0)
+      Flags( Variable Absolute )
+
+Button.0001 ---> Key.BtnA
+Button.0002 ---> Key.BtnB
+Button.0003 ---> Key.BtnC
+Button.0004 ---> Key.BtnX
+Button.0005 ---> Key.BtnY
+Button.0006 ---> Key.BtnZ
+Button.0007 ---> Key.BtnTL
+Button.0008 ---> Key.BtnTR
+Button.0009 ---> Key.BtnTL2
+Button.000a ---> Key.BtnTR2
+Button.000b ---> Key.BtnSelect
+Button.000c ---> Key.BtnStart
+Button.000d ---> Key.BtnMode
+Button.000e ---> Key.BtnThumbL
+Button.000f ---> Key.BtnThumbR
+Keyboard.0052 ---> Key.Up
+Keyboard.0051 ---> Key.Down
+Keyboard.0050 ---> Key.Left
+Keyboard.004f ---> Key.Right
+Keyboard.00f1 ---> Key.Back
+GenericDesktop.HatSwitch ---> Absolute.Hat0X
+GenericDesktop.X ---> Absolute.X
+GenericDesktop.Y ---> Absolute.Y
+GenericDesktop.Z ---> Absolute.Z
+GenericDesktop.Rz ---> Absolute.Rz
+GenericDesktop.Rx ---> Absolute.Rx
+GenericDesktop.Ry ---> Absolute.Ry
+Simulation.00c5 ---> Absolute.Brake
+Simulation.Throttle ---> Absolute.Throttle
+Sensor.0453 ---> Sync.Report
+Sensor.0454 ---> Sync.Report
+Sensor.0455 ---> Sync.Report
+Digitizers.003b ---> Absolute.Misc
+Consumer.0223 ---> Key.HomePage
